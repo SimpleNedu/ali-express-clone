@@ -1,0 +1,11 @@
+.account:hover > .accountBox{
+    display: block;
+    box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+.account:hover .pointer {
+    transform: rotate(180deg);
+}
+.accountBox{
+    display: none;
+}

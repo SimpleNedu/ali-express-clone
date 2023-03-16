@@ -1,14 +1,17 @@
 import Head from 'next/head'
+import { useSelector } from 'react-redux'
+import { ThemeToggler } from '../components/common/themeToggler'
 
 function Seller() {
+  const Theme = useSelector((state)=>state.Theme.theme)
   return (
     <>
         <Head>
             <title>Seller page</title>
         </Head>
         <main>
-            {/* here goes the page content for the sellers login page and the rest */}
-        </main>
+          na sellers still dey here
+         </main>
     </>
   )
 }
